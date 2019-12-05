@@ -105,7 +105,7 @@ body {
 
 .center-top {
     width: 757px;
-    height: 210px;
+    /* height: 210px; */
     background-color: #DCDCDC;
     color: #777777;
     font-family: "Arial MT";
@@ -175,26 +175,30 @@ body {
 
 .footer-left {
     width: 297px;
-    height: 180px;
+    /* height: 180px; */
     background-color: #777777;
 
 }
 
-.points-ul li {
-    margin-left: -10px;
+.points-ul {
+    columns: 2;
 }
-.points-ul li {
-        
-        display: block;
-        width: 49%;
-        float: left;
-    }
+/* .points-ul li {
+    margin-left: -10px;
+} */
+
+/* .points-ul li {
+
+    display: block;
+    width: 49%;
+    float: left;
+} */
 
 
 
 .footer-center {
     width: 297px;
-    height: 180px;
+    /* height: 180px; */
     background-color: #777777;
 
 }
