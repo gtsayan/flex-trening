@@ -1,5 +1,9 @@
-@font-face { font-family: 'Arial MT';  src: local('ArialMT'),
-     url('https://nomail.com.ua/files/woff/a27c5975a1a88dcd17c7c606902044d9.woff') format('woff'); }
+@font-face {
+    font-family: 'Arial MT';
+    src: local('ArialMT'),
+        url('https://nomail.com.ua/files/woff/a27c5975a1a88dcd17c7c606902044d9.woff') format('woff');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -46,14 +50,85 @@ body {
     text-align: right;
     padding: 20px 22px;
 }
-p{
-    margin: 0;
-}
+
 .w-text {
     color: #ffffff;
-font-family: "Arial MT";
-font-size: 14px;
-font-weight: 400;
-line-height: 22px;
-text-decoration: underline;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: underline;
 }
+
+/* -----------------CONTENT------------------- */
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-top {
+    width: 184px;
+    height: 335px;
+    background-color: #777777;
+    text-align: right;
+    padding: 20px 32px 17px 13px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.left-bottom {
+    width: 184px;
+    height: 134px;
+    background-color: #777777;
+}
+
+.center {}
+
+.center-top {
+    width: 757px;
+    height: 210px;
+    background-color: #DCDCDC;
+    color: #777777;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.center-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.center-cards_item {
+    width: 130px;
+    height: 150px;
+    background-color: #DCDCDC;
+    margin-bottom: 20px;
+}
+
+.null {
+    visibility: hidden; 
+
+.center-bottom {}
+
+.center-bottom_left {
+    width: 370px;
+    height: 200px;
+    background-color: #DCDCDC;
+}
+
+.center-bottom_right {}
